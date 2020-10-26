@@ -8,6 +8,8 @@ import Geral from './scenes/Geral';
 import Categoria from './scenes/Categoria';
 import Mes from './scenes/Mes';
 
+import colors from './utils/colors';
+
 const Stack = createStackNavigator();
 const Tab = createMaterialTopTabNavigator();
 function Tabs() {
@@ -31,9 +33,9 @@ class App extends Component {
                     options={{
                         title: 'Itau Gastos Cartão',
                         headerStyle: {
-                            backgroundColor: '#0d7aff'
+                            backgroundColor: colors.blue
                         },
-                        headerTintColor: '#fff'
+                        headerTintColor: colors.white100
                     }}
                 />
           </Stack.Navigator>

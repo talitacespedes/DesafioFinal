@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ActivityIndicator, FlatList, Text, View } from 'react-native';
 
 // Styles
-import { CellContainer } from './style';
+import { Container, CellContainer } from './style';
 
 import { formatPrice } from '../../utils/utils';
 
@@ -41,7 +41,7 @@ export default class Geral extends Component {
     const { data, isLoading } = this.state;
 
     return (
-      <View style={{ flex: 1, padding: 24 }}>
+      <Container>
         {isLoading ? <ActivityIndicator/> : (
           <FlatList
             data={data}
@@ -49,7 +49,7 @@ export default class Geral extends Component {
             renderItem={this.renderItem}
           />
         )}
-      </View>
+      </Container>
     );
   }
 };
