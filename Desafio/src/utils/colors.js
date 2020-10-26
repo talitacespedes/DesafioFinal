@@ -1,0 +1,17 @@
+export default {
+    primary: '#2C73FF',
+    secondary: '#5000ff',
+    yellow: '#f6ca45',
+    blackAbsolute: '#000000',
+    white100: '#ffffff',
+    gray: '#656565',
+    lightBlue: '#2C73FF',
+    blue: '#3956FF',
+    opacity30: 'rgba(0, 0, 0, .3)',
+    opacity60: 'rgba(0, 0, 0, .6)',
+    opacity90: 'rgba(0, 0, 0, .9)',
+    violet: '#5000FF',
+    transparent: 'rgba(255, 255, 255, 0.1)',
+    transparent30: 'rgba(255, 255, 255, .3)',
+    violet_dark: '#8042FF',
+}
